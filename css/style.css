@@ -9,13 +9,13 @@ textarea, button { border-radius: 8px;}
  hr {
 	color: red;
 	margin-top:-7px;
-	width: 38%;
+	width: 185px;
 	 float: left;
 }
-form {
-	
-}
-
+td { padding-left: 50px;
+padding-top: 50px;}
+label {margin-bottom: 20px;}
+button { padding: 13px;}
 /*span {font-weight: bold; font-size: 24px; margin-left: -20px;}*/
 /*.contact {
 	font-family: 'Cinzel', serif;
