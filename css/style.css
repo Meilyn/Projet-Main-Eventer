@@ -1,18 +1,22 @@
 .contact  {
 	font-family: 'Comfortaa', cursive;
-	width: 50%;
+	width: 35%;
 	margin: 0 auto;
 	
 }
 input { border-radius: 30px;}
 textarea, button { border-radius: 8px;}
-.contact h2 {
-	border-bottom: 2px solid red;
-	padding-bottom: 10px;
-	width: 40%;	
+ hr {
+	color: red;
+	margin-top:-7px;
+	width: 38%;
+	 float: left;
 }
-h2  { display: inline-block;}
-span {font-weight: bold;}
+form {
+	
+}
+
+/*span {font-weight: bold; font-size: 24px; margin-left: -20px;}*/
 /*.contact {
 	font-family: 'Cinzel', serif;
 }*/
