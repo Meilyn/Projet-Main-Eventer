@@ -24,13 +24,16 @@
 ## Work Distribution 
 
 **@Othman** : Menu & Header
-**@Meilyn** : About | Our Team | footer
+
+**@Meilyn** : About / Our Team / footer
+
 **@Cedric** : Events
+
 **@Amine** : Contact Form
 
 ## Projet 
 
-We are a brand new web development company and we landed our first customer.
+We are a new startup of web development and we found our first customer.
 
 
 ## Mock Up 
