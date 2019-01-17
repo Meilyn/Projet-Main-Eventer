@@ -6,11 +6,13 @@
 }
 input { border-radius: 30px;}
 textarea, button { border-radius: 8px;}
- hr {
+ #tiret {
 	color: red;
 	margin-top:-7px;
 	width: 185px;
 	 float: left;
+	 height: 5px;
+	 background-color: red;
 }
 td { padding-left: 50px;
 padding-top: 50px;}
