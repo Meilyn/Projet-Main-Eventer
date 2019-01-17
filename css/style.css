@@ -1,13 +1,15 @@
 .contact  {
 	font-family: 'Comfortaa', cursive;
+	width: 50%;
 	margin: 0 auto;
+	
 }
 input { border-radius: 30px;}
 textarea, button { border-radius: 8px;}
 .contact h2 {
 	border-bottom: 2px solid red;
 	padding-bottom: 10px;
-	width: 22%;	
+	width: 40%;	
 }
 h2  { display: inline-block;}
 span {font-weight: bold;}
