@@ -2,23 +2,21 @@
 	font-family: 'Comfortaa', cursive;
 	width: 35%;
 	margin: 0 auto;
-	
 }
-input { border-radius: 30px;}
-textarea, button { border-radius: 8px;}
- #tiret {
-	color: red;
+.contact input { border-radius: 30px;border: 1px solid  #8d0f0f; padding-top: 7px;}
+.contact textarea, button { border-radius: 8px;border: 1px solid  #8d0f0f;}
+.contact textarea {width: 407px; height: 200px;}
+.contact #tiret {
+	color: #9b0000;
 	margin-top:-7px;
 	width: 185px;
 	 float: left;
 	 height: 5px;
-	 background-color: red;
+	 background-color:  #8d0f0f;
 }
-td { padding-left: 50px;
+.contact td { padding-left: 50px;
 padding-top: 50px;}
-label {margin-bottom: 20px;}
-button { padding: 13px;}
-/*span {font-weight: bold; font-size: 24px; margin-left: -20px;}*/
-/*.contact {
-	font-family: 'Cinzel', serif;
-}*/
+.contact label {margin-bottom: 20px;}
+.contact button { padding: 13px; color : #8d0f0f; width: 125px;}
+.contact .bouton { text-align: center;}
+.contact button:hover {color: white; background-color: #8d0f0f; cursor: pointer;}
