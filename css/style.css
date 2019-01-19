@@ -19,11 +19,16 @@ body {
 hr {
 	margin-top: 0px;
 	width: 150px;
-	position: relative;
 	left: 80px;
 	border: 2px solid tomato;
 }
 .about img {
 	float: left;
 	margin: 15px 15px;
+}
+.team {
+	display: block;
+	width: 50%;
+	margin: auto auto;
+	text-align: center;
 }
