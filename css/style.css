@@ -2,27 +2,28 @@
 	font-family: 'Comfortaa', cursive;
 	width: 35%;
 	margin: 0 auto;
+	color:  rgba(2,2,2,255);
 }
 .contact input {
 	border-radius: 30px;
-	border: 1px solid #8d0f0f;
+	border: 1px solid  rgba(155,0,0,255);
 	padding-top: 7px;
 }
 .contact textarea, button {
 	border-radius: 8px;
-	border: 1px solid #8d0f0f;
+	border: 1px solid  rgba(155,0,0,255);
 }
 .contact textarea {
 	width: 407px;
 	height: 200px;
 }
 .contact #tiret {
-	color: #9b0000;
+	color: rgba(155,0,0,255);
 	margin-top: -7px;
 	width: 185px;
 	float: left;
 	height: 5px;
-	background-color: #8d0f0f;
+	background-color:  rgba(155,0,0,255);
 }
 .contact td {
 	padding-left: 50px;
