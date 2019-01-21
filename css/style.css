@@ -17,18 +17,22 @@ body {
   overflow-x: hidden;
   font-family: font2;
 }
+
 nav a {
   text-decoration: none;
   color: white;
 }
+
+/*_______HEADER___________*/
 header nav {
   float:right;
   width:450px;
   padding-right: 100px;
   z-index: 3;
 }
+
 header ul li{
-  font-family: 'Comfortaa-Regular';
+  font-family:  "Comfortaa-Regular",sans-serif;
   text-transform: lowercase;
   text-transform: capitalize;
   list-style:none;
@@ -39,34 +43,39 @@ header ul li{
   font-size: 17px;
   z-index: 4;
 }
+
 header img {
   position: absolute;
   filter:brightness(50%);
-z-index:1;
+  z-index:1;
 }
+
 header #back {
     position: relative;
     height: 70vh;
     background-size: cover;
     z-index: 2;
   }
+
 header #trigger {
   width:240px;
   height:100px;
   margin: auto;
-  }
+}
+
 .slide-top {
-  	-webkit-animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-  	        animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-            position: relative;
-            margin-top: 150%;
-            height:180px;
-            margin-left: auto;
-            margin-right: auto;
-            width: auto;
-            z-index: 3;
-            filter: opacity(1);
-  }
+  -webkit-animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+  animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+  position: relative;
+  margin-top: 150%;
+  height:180px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  z-index: 3;
+  filter: opacity(1);
+}
+
 @-webkit-keyframes slide-top {
     0% {
       -webkit-transform: translateY(0);
@@ -87,28 +96,12 @@ header #trigger {
               transform: translateY(-200px);
     }
   }
-/* -------SECTION ABOUT MEILYN-------*/ 
-.about h1 {
-  font-size:50px;
-}  
-
-<<<<<<< HEAD
-.about {
-  margin-top: 150px;
-=======
-/*_____END HEADER_________________*/
+/*_______END HEADER___________*/
 
 
-/*body {
-	margin: auto auto;
-	height: 100%;
-	background-color: #fff;
-	padding: 0px;
-	overflow-x: hidden;
-}*/
+/* -------SECTION ABOUT-------*/
 #about {
   margin-top: 300px;
->>>>>>> c8e2e645a1c451b150e0912c0405fd824bb958fc
 	display: block;
 	width: 60%;
 	padding: 20px;
@@ -118,6 +111,7 @@ header #trigger {
 }
 #about p {
 	color: #aeaeae;
+  font-family: "Comfortaa-Regular",sans-serif;
 }
 hr {
 	margin-top: 0px;
@@ -132,9 +126,13 @@ hr {
 #about h1 {
 	border-bottom: 3px solid #af0102;
 	display: inline-block;
-  font-family: font2;
+  font-family: "Comfortaa-Regular",sans-serif;
+  font-size:42px;
+  font-weight:normal;
 }
-/* -------SECTION TEAM MEILYN-------*/ 
+/* -------END SECTION ABOUT------*/
+
+/* -------SECTION TEAM-------*/
 .team {
 	display: grid;
 	grid-template-columns: auto auto;
@@ -144,7 +142,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
 	text-align: left;
-	padding: 20px 20px;
+	padding: 85px 20px 20px;
 	color: #aeaeae;
 }
 
@@ -155,13 +153,9 @@ hr {
 	width: 350px;
   font-size:50px;
 	display: block;
-<<<<<<< HEAD
-	margin-right: auto;
-  margin-left: auto;
-
-=======
 	margin: auto auto;
->>>>>>> c8e2e645a1c451b150e0912c0405fd824bb958fc
+  font-family:  "Comfortaa-Regular",sans-serif;
+  font-weight: normal;
 }
 
 #notification p {
@@ -179,24 +173,16 @@ hr {
 	float: left;
 	padding: 5px;
 }
+
 .team span {
 	background-color: #af0102;
 	color: white;
 	padding: 3px;
 }
-<<<<<<< HEAD
-=======
+/*_____END SECTION TEAM_______*/
 
 
->>>>>>> c8e2e645a1c451b150e0912c0405fd824bb958fc
-
-/*-----------SECTION EVENTS CEDRIC-------------*/
-
-@font-face {
-  font-family: "Comfortaa-Regular";
-  src: url("/fonts/Comfortaa-Regular.ttf") format("ttf");
-}
-
+/*_________SECTION EVENTS____*/
 #event {
   font-family: "Comfortaa-Regular",sans-serif;
 }
@@ -218,7 +204,7 @@ hr {
 }
 
 #event .top .absol {
-  font-family: 'font2';
+  font-family: "Comfortaa-Regular",sans-serif;
   position:absolute;
   left:50%;
   margin-left:-180px;
@@ -251,47 +237,59 @@ hr {
   margin:90px auto;
 }
 
-#event .item-grid {text-align: center;
-                    border:1px solid rgba(233,233,233,255);
-                    -webkit-box-shadow: 0px 3px 5px #888888;
-                    box-shadow: 0px 3px 5px #888888;}
+#event .item-grid {
+  text-align: center;
+  border:1px solid rgba(233,233,233,255);
+  -webkit-box-shadow: 0px 3px 5px #888888;
+  box-shadow: 0px 3px 5px #888888;
+}
 
-#event .item-grid a {display:block;
-                      text-decoration:none;}
+#event .item-grid a {
+  display:block;
+  text-decoration:none;
+}
 
-#event .item-grid h3 {font-weight:normal;
-                      color:white;
-                      background-color:rgba(155,0,0,255);
-                      font-size:20px;
-                      margin-top:0px;
-                      padding:10px 0;}
+#event .item-grid h3 {
+  font-weight:normal;
+  color:white;
+  background-color:rgba(155,0,0,255);
+  font-size:20px;
+  margin-top:0px;
+  padding:10px 0;
+}
 
-#event .item-grid h4 {font-weight:normal;
-                      color:rgba(2,2,2,255);
-                      font-size:14px;
-                      padding:0 60px;}
+#event .item-grid h4 {
+  font-weight:normal;
+  color:rgba(2,2,2,255);
+  font-size:14px;
+  padding:0 60px;
+}
 
-#event .item-grid time {color:rgba(89,178,245,255);
-                        font-size:16px;}
+#event .item-grid time {
+  color:rgba(89,178,245,255);
+  font-size:16px;
+}
 
-#event .item-grid time span {color:rgba(2,2,2,255);
-                            display:block;
-                            width:100%;
-                            text-transform:uppercase;
-                            margin-top:15px;}
+#event .item-grid time span {
+  color:rgba(2,2,2,255);
+  display:block;
+  width:100%;
+  text-transform:uppercase;
+  margin-top:15px;
+}
 
-#event .item-grid p {font-size:12px;
-                      color:rgba(167,167,167,255);
-                      line-height:1.4;
-                      padding:0 60px;}
-
+#event .item-grid p {
+  font-size:12px;
+  color:rgba(167,167,167,255);
+  line-height:1.4;
+  padding:0 60px;
+}
 /*_________END SECTION EVENTS___________*/
-
 
 
 /*___________SECTION CONTACT____________*/
 #contact {
-	font-family: 'Comfortaa-Regular', cursive;
+	font-family:  "Comfortaa-Regular",sans-serif;
 	width: 50%;
 	margin: 110px auto 0;
 	color:  rgba(2,2,2,255);
@@ -325,21 +323,26 @@ hr {
 	height: 5px;
 	background-color:  rgba(155,0,0,255);
 }
+
 #contact td {
 	padding-left: 50px;
 	padding-top: 50px;
 }
+
 #contact label {
 	margin-bottom: 20px;
 }
+
 #contact button {
 	padding: 13px;
 	color : #8d0f0f;
 	width: 125px;
 }
+
 #contact .bouton {
 	text-align: center;
 }
+
 #contact button:hover {
 	color: white;
 	background-color: #8d0f0f;
@@ -349,25 +352,30 @@ hr {
 
 
 /*________________FOOTER___________*/
+footer{
+  text-align: center;
+  background: url("../img/swirl_pattern.png") repeat top left;
+}
 
-footer{text-align: center;
-      background: url("../img/swirl_pattern.png") repeat top left;}
+footer h5{
+  font-family:"Cinzel-Regular",sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color:rgba(2,2,2,255);
+  margin:0;
+  padding: 80px 0 50px;
+}
 
-footer h5{font-family:"Cinzel-Regular",sans-serif;
-          font-size: 36px;
-          font-weight: normal;
-          text-transform: uppercase;
-          color:rgba(2,2,2,255);
-          margin:0;
-          padding: 80px 0 50px;}
+footer .footer-link{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap:90px;
+  justify-content: center;
+  padding-bottom:100px;
+}
 
-footer .footer-link{display:grid;
-                    grid-template-columns: auto auto auto auto;
-                    column-gap:90px;
-                    justify-content: center;
-                    padding-bottom:100px;}
-
-footer .grider4 a{display:block;
-                  }
-
+footer .grider4 a{
+  display:block;
+}
 /*_________END FOOTER___________*/
