@@ -1,11 +1,14 @@
+
 @font-face {
-  font-family: 'font1';
-  src : url('fonts/Cinzel-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'font2';
+  font-family: 'Comfortaa-Regular';
   src : url('fonts/Comfortaa-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: "Cinzel-Regular";
+  src: url("/fonts/Cinzel-Regular.ttf") format("ttf");
+}
+
 body {
   margin: 0px;
   width: 100%;
@@ -25,7 +28,7 @@ header nav {
   z-index: 3;
 }
 header ul li{
-  font-family: 'font2';
+  font-family: 'Comfortaa-Regular';
   text-transform: lowercase;
   text-transform: capitalize;
   list-style:none;
@@ -89,8 +92,23 @@ header #trigger {
   font-size:50px;
 }  
 
+<<<<<<< HEAD
 .about {
   margin-top: 150px;
+=======
+/*_____END HEADER_________________*/
+
+
+/*body {
+	margin: auto auto;
+	height: 100%;
+	background-color: #fff;
+	padding: 0px;
+	overflow-x: hidden;
+}*/
+#about {
+  margin-top: 300px;
+>>>>>>> c8e2e645a1c451b150e0912c0405fd824bb958fc
 	display: block;
 	width: 60%;
 	padding: 20px;
@@ -98,7 +116,7 @@ header #trigger {
   margin-right: auto;
 	text-align: left;
 }
-.about p {
+#about p {
 	color: #aeaeae;
 }
 hr {
@@ -107,11 +125,11 @@ hr {
 	left: 80px;
 	border: 2px solid #af0102;
 }
-.about img {
+#about img {
 	float: left;
 	margin: 15px 15px;
 }
-.about h1 {
+#about h1 {
 	border-bottom: 3px solid #af0102;
 	display: inline-block;
   font-family: font2;
@@ -129,6 +147,7 @@ hr {
 	padding: 20px 20px;
 	color: #aeaeae;
 }
+
 #Team {
   margin-bottom: 87px;
   border-bottom: 3px solid #af0102;
@@ -136,10 +155,15 @@ hr {
 	width: 350px;
   font-size:50px;
 	display: block;
+<<<<<<< HEAD
 	margin-right: auto;
   margin-left: auto;
 
+=======
+	margin: auto auto;
+>>>>>>> c8e2e645a1c451b150e0912c0405fd824bb958fc
 }
+
 #notification p {
 	display: inline-block;
 	background-color: #af0102;
@@ -150,6 +174,7 @@ hr {
 	top: 30px;
 	border: 3px solid #fff;
 }
+
 .team img {
 	float: left;
 	padding: 5px;
@@ -159,6 +184,11 @@ hr {
 	color: white;
 	padding: 3px;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c8e2e645a1c451b150e0912c0405fd824bb958fc
 
 /*-----------SECTION EVENTS CEDRIC-------------*/
 
@@ -259,9 +289,66 @@ hr {
 
 
 
-/*_________FOOTER___________*/
+/*___________SECTION CONTACT____________*/
+#contact {
+	font-family: 'Comfortaa-Regular', cursive;
+	width: 50%;
+	margin: 110px auto 0;
+	color:  rgba(2,2,2,255);
+  padding-bottom: 80px;
+}
 
-@font-face {font-family: "Cinzel-Regular";src: url("/fonts/Cinzel-Regular.ttf") format("ttf");}
+#contact h2{
+  font-size:50px;
+  font-weight: normal;
+  margin: 0 0 20px;
+}
+
+#contact input {
+	border-radius: 30px;
+	border: 1px solid  rgba(155,0,0,255);
+	padding-top: 7px;
+}
+#contact textarea, button {
+	border-radius: 8px;
+	border: 1px solid  rgba(155,0,0,255);
+}
+#contact textarea {
+	width: 407px;
+	height: 200px;
+}
+#contact #tiret {
+	color: rgba(155,0,0,255);
+	margin-top: -7px;
+	width: 440px;
+	float: left;
+	height: 5px;
+	background-color:  rgba(155,0,0,255);
+}
+#contact td {
+	padding-left: 50px;
+	padding-top: 50px;
+}
+#contact label {
+	margin-bottom: 20px;
+}
+#contact button {
+	padding: 13px;
+	color : #8d0f0f;
+	width: 125px;
+}
+#contact .bouton {
+	text-align: center;
+}
+#contact button:hover {
+	color: white;
+	background-color: #8d0f0f;
+	cursor: pointer;
+}
+/*__________END SECTION CONTACT____*/
+
+
+/*________________FOOTER___________*/
 
 footer{text-align: center;
       background: url("../img/swirl_pattern.png") repeat top left;}
@@ -284,5 +371,3 @@ footer .grider4 a{display:block;
                   }
 
 /*_________END FOOTER___________*/
->>>>>>> Cedric
->>>>>>> e6864815a06e5089ad5f6650657b97c84580b172
