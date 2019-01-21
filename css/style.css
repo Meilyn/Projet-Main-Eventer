@@ -42,6 +42,7 @@
 #event .bottom-grid {display:grid;
                       grid-template-columns: auto auto auto;
                       column-gap:65px;
+                      justify-content: center;
                       width: 80%;
                       margin:90px auto;}
 
@@ -101,7 +102,8 @@ footer h5{font-family:"Cinzel-Regular",sans-serif;
 footer .footer-link{display:grid;
                     grid-template-columns: auto auto auto auto;
                     column-gap:90px;
-                    margin-bottom:100px;}
+                    justify-content: center;
+                    padding-bottom:100px;}
 
 footer .grider4 a{display:block;
                   }
