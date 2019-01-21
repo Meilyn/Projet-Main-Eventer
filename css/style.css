@@ -10,23 +10,74 @@
 @font-face {font-family: "Comfortaa-Regular";src: url("/fonts/Comfortaa-Regular.ttf") format("ttf");}
 /*@font-face {font-family: "Cinzel-Regular";src: url("/fonts/Cinzel-Regular.ttf") format("ttf");}*/
 
-.event                        {font-family: "Comfortaa-Regular",sans-serif;}
-.event .top                   {clear:both;width:80%;margin:auto;overflow:auto;position:relative;}
-.event .top img:first-child   {float:left;}
-.event .top img:last-child    {float:right;}
-.event .top .absol            {position:absolute;left:50%;margin-left:-180px;width:380px;}
-.event .top h2                {font-weight:normal;display:block;width:380px;margin:auto;text-align:center;font-size:50px;}
-.event .top span              {display:block;width:312px;height:5px;margin:auto;background-color:rgba(155,0,0,255);}
+.event {font-family: "Comfortaa-Regular",sans-serif;}
 
-.event .bottom-grid           {display:grid;grid-template-columns: auto auto auto;column-gap:65px;width: 80%;margin:90px auto;}
-.event .item-grid             {text-align: center;border:1px solid rgba(233,233,233,255);
-                                  -webkit-box-shadow: 0px 3px 5px #888888;
-                                  box-shadow: 0px 3px 5px #888888;}
-.event .item-grid a           {display:block;text-decoration:none;}
-.event .item-grid h3          {font-weight:normal;color:white;background-color:rgba(155,0,0,255);font-size:20px;margin-top:0px;padding:10px 0;}
-.event .item-grid h4          {font-weight:normal;color:rgba(2,2,2,255);font-size:14px;padding:0 60px;}
-.event .item-grid time        {color:rgba(89,178,245,255);font-size:16px;}
-.event .item-grid time span   {color:rgba(2,2,2,255);display:block;width:100%;text-transform:uppercase;margin-top:15px;}
-.event .item-grid p           {font-size:12px;color:rgba(167,167,167,255);line-height:1.4;padding:0 60px;}
+.event .top {clear:both;
+              width:80%;
+              margin:auto;
+              overflow:auto;
+              position:relative;}
+
+.event .top img:first-child {float:left;}
+
+.event .top img:last-child {float:right;}
+
+.event .top .absol {position:absolute;
+                    left:50%;
+                    margin-left:-180px;
+                    width:380px;}
+
+.event .top h2 {font-weight:normal;
+                display:block;
+                width:380px;
+                margin:auto;
+                text-align:center;
+                font-size:50px;}
+
+.event .top span {display:block;
+                  width:312px;
+                  height:5px;
+                  margin:auto;
+                  background-color:rgba(155,0,0,255);}
+
+.event .bottom-grid {display:grid;
+                      grid-template-columns: auto auto auto;
+                      column-gap:65px;
+                      width: 80%;
+                      margin:90px auto;}
+
+.event .item-grid {text-align: center;
+                    border:1px solid rgba(233,233,233,255);
+                    -webkit-box-shadow: 0px 3px 5px #888888;
+                    box-shadow: 0px 3px 5px #888888;}
+
+.event .item-grid a {display:block;
+                      text-decoration:none;}
+
+.event .item-grid h3 {font-weight:normal;
+                      color:white;
+                      background-color:rgba(155,0,0,255);
+                      font-size:20px;
+                      margin-top:0px;
+                      padding:10px 0;}
+
+.event .item-grid h4 {font-weight:normal;
+                      color:rgba(2,2,2,255);
+                      font-size:14px;
+                      padding:0 60px;}
+
+.event .item-grid time {color:rgba(89,178,245,255);
+                        font-size:16px;}
+
+.event .item-grid time span {color:rgba(2,2,2,255);
+                            display:block;
+                            width:100%;
+                            text-transform:uppercase;
+                            margin-top:15px;}
+
+.event .item-grid p {font-size:12px;
+                      color:rgba(167,167,167,255);
+                      line-height:1.4;
+                      padding:0 60px;}
 
 /*_________END SECTION EVENTS___________*/
