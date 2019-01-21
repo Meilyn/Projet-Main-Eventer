@@ -40,7 +40,13 @@ We are a new startup of web development and we found our first customer.
 
 
 ## Mock Up 
+<<<<<<< HEAD
 ![maquette](img/Maquette.jpg)
 
 
 >>>>>>> Meilyn
+=======
+![maquette](Maquette.jpg)
+
+
+>>>>>>> Cedric
