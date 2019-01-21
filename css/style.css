@@ -7,21 +7,22 @@
   src : url('fonts/Comfortaa-Regular.ttf') format('truetype');
 }
 body {
-margin: 0px;
-width: 100%;
-height: 100%;
-padding: 0px;
-overflow-x: hidden;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: font2;
 }
-nav a{
+nav a {
   text-decoration: none;
   color: white;
 }
 header nav {
   float:right;
   width:450px;
- padding-right: 100px;
- z-index: 3;
+  padding-right: 100px;
+  z-index: 3;
 }
 header ul li{
   font-family: 'font2';
@@ -83,16 +84,13 @@ header #trigger {
               transform: translateY(-200px);
     }
   }
+/* -------SECTION ABOUT MEILYN-------*/ 
+.about h1 {
+  font-size:50px;
+}  
 
-/*body {
-	margin: auto auto;
-	height: 100%;
-	background-color: #fff;
-	padding: 0px;
-	overflow-x: hidden; 
-}*/
 .about {
-  margin-top: 300px;
+  margin-top: 150px;
 	display: block;
 	width: 60%;
 	padding: 20px;
@@ -116,24 +114,30 @@ hr {
 .about h1 {
 	border-bottom: 3px solid #af0102;
 	display: inline-block;
-
+  font-family: font2;
 }
+/* -------SECTION TEAM MEILYN-------*/ 
 .team {
 	display: grid;
 	grid-template-columns: auto auto;
 	text-align: left;
 	width: 60%;
-	margin: auto auto;
+	margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
 	text-align: left;
 	padding: 20px 20px;
 	color: #aeaeae;
 }
 #Team {
+  margin-bottom: 87px;
+  border-bottom: 3px solid #af0102;
 	text-align: center;
-	border-bottom: 3px solid #af0102;
-	width: 180px;
+	width: 350px;
+  font-size:50px;
 	display: block;
-	margin: auto auto;
+	margin-right: auto;
+  margin-left: auto;
 
 }
 #notification p {
@@ -155,54 +159,67 @@ hr {
 	color: white;
 	padding: 3px;
 }
-=======
 
+/*-----------SECTION EVENTS CEDRIC-------------*/
 
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("/fonts/Comfortaa-Regular.ttf") format("ttf");
+}
 
+#event {
+  font-family: "Comfortaa-Regular",sans-serif;
+}
 
+#event .top {
+  clear:both;
+  width:80%;
+  margin:auto;
+  overflow:auto;
+  position:relative;
+}
 
+#event .top img:first-child {
+  float:left;
+}
 
+#event .top img:last-child {
+  float:right;
+}
 
-/*-----------SECTION EVENTS-------------*/
+#event .top .absol {
+  font-family: 'font2';
+  position:absolute;
+  left:50%;
+  margin-left:-180px;
+  width:380px;
+}
 
-@font-face {font-family: "Comfortaa-Regular";src: url("/fonts/Comfortaa-Regular.ttf") format("ttf");}
+#event .top h2 {
+  font-weight:normal;
+  display:block;
+  width:380px;
+  margin:auto;
+  text-align:center;
+  font-size:50px;
+}
 
-#event {font-family: "Comfortaa-Regular",sans-serif;}
+#event .top span {
+  display:block;
+  width:312px;
+  height:5px;
+  margin:auto;
+  background-color:rgba(155,0,0,255);
+}
 
-#event .top {clear:both;
-              width:80%;
-              margin:auto;
-              overflow:auto;
-              position:relative;}
-
-#event .top img:first-child {float:left;}
-
-#event .top img:last-child {float:right;}
-
-#event .top .absol {position:absolute;
-                    left:50%;
-                    margin-left:-180px;
-                    width:380px;}
-
-#event .top h2 {font-weight:normal;
-                display:block;
-                width:380px;
-                margin:auto;
-                text-align:center;
-                font-size:50px;}
-
-#event .top span {display:block;
-                  width:312px;
-                  height:5px;
-                  margin:auto;
-                  background-color:rgba(155,0,0,255);}
-
-#event .bottom-grid {display:grid;
-                      grid-template-columns: auto auto auto;
-                      column-gap:65px;
-                      justify-content: center;
-                      width: 80%;
-                      margin:90px auto;}
+#event .bottom-grid {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  column-gap:65px;
+  justify-content: center;
+  width: 80%;
+  margin:90px auto;
+}
 
 #event .item-grid {text-align: center;
                     border:1px solid rgba(233,233,233,255);
