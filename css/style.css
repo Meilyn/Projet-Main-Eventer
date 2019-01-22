@@ -309,6 +309,7 @@ hr {
 
 #contact h2{
     font-size:50px;
+    text-align: center;
     font-weight: normal;
     margin: 0 0 20px;
 }
@@ -330,7 +331,7 @@ hr {
 	color: rgba(155,0,0,255);
 	margin-top: -7px;
 	width: 440px;
-	float: left;
+    margin: auto auto;
 	height: 5px;
 	background-color:  rgba(155,0,0,255);
 }
