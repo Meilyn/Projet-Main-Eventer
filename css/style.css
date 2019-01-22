@@ -317,11 +317,21 @@ hr {
     margin: 0 0 2px;
 }
 
+ #contact table{
+   width:100%;
+ }
+
+ #contact td{
+    width:50%;
+ }
+
 #contact input {
 	border-radius: 30px;
 	border: 1px solid  rgba(155,0,0,255);
 	padding-top: 7px;
+  width: 100%;
 }
+
 #contact textarea, button {
 	border-radius: 8px;
 	border: 1px solid  rgba(155,0,0,255);
