@@ -137,26 +137,35 @@ hr {
 
 /* -------SECTION TEAM-------*/
 .team {
-	display: grid;
-	grid-template-columns: auto auto;
-	text-align: left;
-	width: 60%;
-	margin-bottom: 100px;
+ 	display: grid;
+ 	grid-template-columns: auto auto;
+ 	text-align: left;
+ 	width: 60%;
+ 	margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
-	text-align: left;
-	padding: 85px 20px 20px;
-	color: #aeaeae;
+ 	text-align: left;
+ 	padding: 85px 20px 20px;
+ 	color: #aeaeae;
 }
+.team h3 span {
+   font-family: "Comfortaa-Regular", sans-serif;
+   font-size: 16px;
+   padding: 5px 22px 2px 13px;
+}
+ .team div p {
+   font-family: "Comfortaa-Regular", sans-serif;
+   font-size: 14px;
+ }
 
 #Team {
   margin-bottom: 87px;
   border-bottom: 3px solid #af0102;
-	text-align: center;
-	width: 350px;
+	 text-align: center;
+	 width: 350px;
   font-size:50px;
-	display: block;
-	margin: auto auto;
+	 display: block;
+	 margin: auto auto;
   font-family:  "Comfortaa-Regular",sans-serif;
   font-weight: normal;
 }
