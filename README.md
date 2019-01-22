@@ -1,5 +1,7 @@
 # Projet Main Eventer
 
+**Website** [Main Eventer](https://meilyn.github.io/Projet-Main-Eventer/)
+
 **Collaborators**: 
 
 * [Meilyn ANDRADE](https://github.com/Meilyn)
@@ -20,20 +22,21 @@
 * Learn working in team.
 * Live the design stages of a one page project.
 * Learn how to manage a project with different methodology.
+* Working in Github Team 
 
 ## Work Distribution 
 
-**@Othman** : Menu & Header
+**@Othman** : Menu & Header | Animation CSS
 
-**@Meilyn** : About / Our Team / footer
+**@Meilyn** : About | Our Team
 
-**@Cedric** : Events
+**@Cedric** : Events | Footer
 
 **@Amine** : Contact Form
 
 ## Projet 
 
-We are a new startup of web development and we found our first customer.
+We are a new startup of web development and we found our first customer. We need to reproduce the mock up below.
 
 
 ## Mock Up 
