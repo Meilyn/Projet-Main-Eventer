@@ -25,9 +25,9 @@
 
 **@Othman** : Menu & Header
 
-**@Meilyn** : About / Our Team / footer
+**@Meilyn** : About | Our Team
 
-**@Cedric** : Events
+**@Cedric** : Events | Footer
 
 **@Amine** : Contact Form
 
