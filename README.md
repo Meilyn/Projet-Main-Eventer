@@ -15,6 +15,10 @@
 
 **Formation**: Junior Web Developper
 
+## Projet 
+
+We are a new startup of web development and we found our first customer. We need to reproduce the mock up below.
+
 ## Objectives
 
 * Learn on the basis of realistic demands.
@@ -34,10 +38,9 @@
 
 **@Amine** : Contact Form
 
-## Projet 
 
-We are a new startup of web development and we found our first customer. We need to reproduce the mock up below.
-
+## Performance
+![Lighthouse Report](img/Lighthouse.png)
 
 ## Mock Up 
 ![maquette](Maquette.jpg)
