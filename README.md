@@ -1,5 +1,7 @@
 # Projet Main Eventer
 
+**Website** [Main Eventer](https://meilyn.github.io/Projet-Main-Eventer/)
+
 **Collaborators**: 
 
 * [Meilyn ANDRADE](https://github.com/Meilyn)
@@ -20,6 +22,7 @@
 * Learn working in team.
 * Live the design stages of a one page project.
 * Learn how to manage a project with different methodology.
+* Working in Github Team 
 
 ## Work Distribution 
 
