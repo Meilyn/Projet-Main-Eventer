@@ -17,7 +17,9 @@ body {
   overflow-x: hidden;
   font-family: font2;
 }
-
+a:hover {
+  color:#af0102;
+}
 nav a {
   text-decoration: none;
   color: white;
